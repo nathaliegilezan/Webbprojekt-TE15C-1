@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Webbprojekt_TE15C_1.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="products">
+    @foreach (var item in Model)
+    {
+        <a href="@Url.Action("Details", "Products", new { id = item.ID })"
+           class="product">
+
+        <img src="@Url.Content("~/Content/Images/table.jpg")" alt="Marble table"
+                 class="img-responsive" />
+            <h2>@item.Name</h2>
+            <p>
+                <span class="price">@item.Price kr</span>
+                <span class="="btn btn-success buy">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                    Köp
+                </span>
+            </p>
+            <p class="desc">@item.Description</p>
+            </a>
+    }
+</div>

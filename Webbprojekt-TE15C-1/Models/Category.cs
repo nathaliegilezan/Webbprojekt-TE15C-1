@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Webbprojekt_TE15C_1.Models
