@@ -1,6 +1,36 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: black;
+}
+
+.navbar-collapse {
+  background-color: #fff;
+}
+
+.jumbotron {
+
+  padding-top: 100px;
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar  {
+  background-color: #fff;
+}
+
+.logo {
+  padding-left: 105px;
+  width: 1245px;
+}
+
+h2 {
+  color: #fff;
+}
+
+
+.btn  {
+  background-color: black;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -9,8 +39,8 @@
     padding-right: 15px;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
+/* Override the default bootstrap behavior where horizontal description lists
+   will truncate terms that are too long to fit in the left column
 */
 .dl-horizontal dt {
     white-space: normal;
