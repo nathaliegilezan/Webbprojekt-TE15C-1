@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Webbprojekt_TE15C_1.Models;
+using System.Web.Helpers;
 
 namespace Webbprojekt_TE15C_1.Controllers
 {
@@ -15,9 +16,13 @@ namespace Webbprojekt_TE15C_1.Controllers
         private StoreContext db = new StoreContext();
 
         // GET: Products
-        public ActionResult Index()
+        public ActionResult Index(string search)
         {
             var products = db.Products.Include(p => p.Category);
+            if (!String.IsNullOrEmpty(search))
+            {
+                products = products.Where(p => p.Name.Contains(search));
+            }
             return View(products.ToList());
         }
 
@@ -48,10 +53,14 @@ namespace Webbprojekt_TE15C_1.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Name,Description,Price,Imagefile,CategoryID")] Product product)
+        public ActionResult Create([Bind(Include = "ID,Name,Description,Price,Imagefile,CategoryID")] Product product, 
+        HttpPostedFileBase file)
         {
             if (ModelState.IsValid)
             {
+                WebImage webImage = new WebImage(file.InputStream);
+                webImage.Save("~/Content/Images/" + file.FileName);
+                product.Imagefile = file.FileName;
                 db.Products.Add(product);
                 db.SaveChanges();
                 return RedirectToAction("Index");

@@ -10,11 +10,10 @@
     <a href="@Url.Action("Details", "Products", new { id = item.ID })"
        class="product">
 
-        <img src="@Url.Content("~/Content/Images/table.jpg")" alt="Marble table"
+        <img src="@Url.Content("~/Content/Images/" + item.Imagefile)" alt="Marble table"
              class="img-responsive" />
 
-        <img src="@Url.Content("~/Content/Images/armchair.jpg")" alt="Marble table"
-             class="img-responsive" />
+        
         <h2>@item.Name</h2>
         <p>
             <span class="price">@item.Price kr</span>
@@ -27,7 +26,9 @@
     </a>
     }
 
-    @using(Html.BeginForm("Index, "Products", FormMethod.Get))
+    @using(Html.BeginForm("Index", "Products", FormMethod.Get))
             {
-    <input type="text" id=""search"}
+    <input type="text" id=""search" name="search" placeholder="Sök..." />
+    <input type="submit" value="sök" />
+    }
 </div>
