@@ -44,7 +44,7 @@ h2 {
 }
 
 .img2 {
-  position: relative;
+  background-image: url('ram.jpg');
   float: right;
   width: 350px;
   height: 595px;
@@ -52,7 +52,6 @@ h2 {
 
 .img2:hover {
   background-image: url('ram2.jpg');
-  filter: blur(4px);
 }
 
 .img3 {
