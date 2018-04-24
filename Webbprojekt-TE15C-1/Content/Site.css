@@ -10,7 +10,7 @@
 
 .jumbotron {
 
-  padding-top: 100px;
+  padding-top: 150px;
   background-color: #000;
   color: #fff;
 }
@@ -19,13 +19,61 @@
   background-color: #fff;
 }
 
+.navbar:hover {
+  color: black;
+}
+
 .logo {
-  padding-left: 105px;
-  width: 1245px;
+  margin-left: 290px;
+  width: 780px;
+}
+
+.col-md-4 {
+  margin-top: 100px;
+  float: left;
 }
 
 h2 {
   color: #fff;
+}
+
+.img1 {
+  height: 280px;
+  width: 650px;
+  float: left;
+}
+
+.img2 {
+  background-image: url('ram1.jpg');
+  float: right;
+  width: 350px;
+  height: 595px;
+}
+
+.img2:hover {
+    background-image: url('ram2.jpg');
+    height: 595px;
+    width: 350px;
+}
+
+.img3 {
+  float: left;
+  margin-top: 20px;
+  height: 295px;
+  width: 315px;
+}
+
+.img4 {
+  margin-top: 20px;
+  height: 295px;
+  margin-left: 20px;
+  width: 315px;
+}
+
+.img5 {
+  margin-top: 20px;
+  width: 1020px;
+  height: 350px;
 }
 
 
