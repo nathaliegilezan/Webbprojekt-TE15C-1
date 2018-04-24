@@ -1,7 +1,7 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    background-color: black;
+body{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: black;
 }
 
 .navbar-collapse {
@@ -44,19 +44,19 @@ h2 {
 }
 
 .img2 {
-  background-image: url('ram1.jpg');
+  position: relative;
   float: right;
   width: 350px;
   height: 595px;
 }
 
 .img2:hover {
-    background-image: url('ram2.jpg');
-    height: 595px;
-    width: 350px;
+  background-image: url('ram2.jpg');
+  filter: blur(4px);
 }
 
 .img3 {
+
   float: left;
   margin-top: 20px;
   height: 295px;
