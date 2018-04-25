@@ -24,7 +24,7 @@ body{
 }
 
 .logo {
-  margin-left: 290px;
+  margin-left: 145px;
   width: 780px;
 }
 
@@ -43,16 +43,44 @@ h2 {
   float: left;
 }
 
-.img2 {
-  background-image: url('ram.jpg');
+.image-container {
   float: right;
   width: 350px;
   height: 595px;
 }
 
-.img2:hover {
-  background-image: url('ram2.jpg');
+.image-container .img2 {
+  float: right;
+  width: 350px;
+  height: 595px;
+  opacity: 1;
+    -webkit-transition: opacity 200ms linear;
+    -moz-transition: opacity 200ms linear;
+    -o-transition: opacity 200ms linear;
+    -ms-transition: opacity 200ms linear;
+    transition: opacity 200ms linear;
 }
+
+.image-container:hover  .img2 {
+  opacity:0;
+}
+
+.image-container .img22{
+
+  position: absolute;
+  opacity:0;
+   -webkit-transition: opacity 200ms linear;
+   -moz-transition: opacity 200ms linear;
+   -o-transition: opacity 200ms linear;
+   -ms-transition: opacity 200ms linear;
+   transition: opacity 200ms linear;
+}
+
+.image-container:hover .img22{
+  opacity:1;
+}
+
+
 
 .img3 {
 
