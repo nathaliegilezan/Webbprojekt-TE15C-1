@@ -1,16 +1,44 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">s
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
+    <script>
+
+    $(function() {
+      var menyToppPosition = $('#sticky_navigation').offset().top;
+
+
+      var testaMenyn = function() {
+
+        var ySkrollTopp = $(window).scrollTop();
+
+        if (ySkrollTopp > menyToppPosition) {
+          $('#sticky_navigation').css({ 'position': 'fixed', 'top':0, 'left':0 });
+
+        } else {
+          $('sticky_navigation').css({ 'position': 'relative' });
+        }
+      };
+
+    testaMenyn();
+
+    $(window).scroll(function() {
+      testaMenyn();
+    });
+  });
+</script>
 
 </head>
 <body>
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <img src="@Url.Content("~/Content/Images/logo.png")" alt="" class="logo">
+      </div>
         <div class="container">
 
             <div class="navbar-header">
@@ -20,18 +48,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <div id="sticky_navigation">
                 @Html.ActionLink("NAMN", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("Products", "Index", "Products")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
+
+                </div>
             </div>
         </div>
-    </div>
+
     <div class="container body-content">
         @RenderBody()
         <hr />
