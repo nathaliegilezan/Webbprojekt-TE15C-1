@@ -39,19 +39,14 @@ h2 {
   color: #fff;
 }
 
-.img1 {
+
+.image-container1 {
+  float: left;
   height: 280px;
   width: 650px;
-  float: left;
 }
 
-.image-container {
-  float: right;
-  width: 350px;
-  height: 595px;
-}
-
-.image-container .img2 {
+.image-container1 .img1 {
   float: right;
   width: 350px;
   height: 595px;
@@ -63,11 +58,11 @@ h2 {
     transition: opacity 200ms linear;
 }
 
-.image-container:hover  .img2 {
+.image-container1:hover  .img1 {
   opacity:0;
 }
 
-.image-container .img22{
+.image-container1 .img11{
 
   position: absolute;
   opacity:0;
@@ -78,7 +73,44 @@ h2 {
    transition: opacity 200ms linear;
 }
 
-.image-container:hover .img22{
+.image-container1:hover .img11{
+  opacity:1;
+}
+
+.image-container2 {
+  float: right;
+  width: 350px;
+  height: 595px;
+}
+
+.image-container2 .img2 {
+  float: right;
+  width: 350px;
+  height: 595px;
+  opacity: 1;
+    -webkit-transition: opacity 200ms linear;
+    -moz-transition: opacity 200ms linear;
+    -o-transition: opacity 200ms linear;
+    -ms-transition: opacity 200ms linear;
+    transition: opacity 200ms linear;
+}
+
+.image-container2:hover  .img2 {
+  opacity:0;
+}
+
+.image-container2 .img22{
+
+  position: absolute;
+  opacity:0;
+   -webkit-transition: opacity 200ms linear;
+   -moz-transition: opacity 200ms linear;
+   -o-transition: opacity 200ms linear;
+   -ms-transition: opacity 200ms linear;
+   transition: opacity 200ms linear;
+}
+
+.image-container2:hover .img22{
   opacity:1;
 }
 
