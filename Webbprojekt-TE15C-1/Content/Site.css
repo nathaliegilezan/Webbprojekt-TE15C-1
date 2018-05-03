@@ -44,23 +44,23 @@ h2 {
   color: #fff;
 }
 
-
 .image-container1 {
   float: left;
-  height: 280px;
-  width: 650px;
 }
 
+
 .image-container1 .img1 {
-  float: right;
-  width: 350px;
-  height: 595px;
+  float: left;
   opacity: 1;
     -webkit-transition: opacity 200ms linear;
     -moz-transition: opacity 200ms linear;
     -o-transition: opacity 200ms linear;
     -ms-transition: opacity 200ms linear;
     transition: opacity 200ms linear;
+}
+
+.image-container:hover img{
+
 }
 
 .image-container1:hover  .img1 {
@@ -82,16 +82,13 @@ h2 {
   opacity:1;
 }
 
+
 .image-container2 {
-  float: right;
-  width: 350px;
-  height: 595px;
+  float: left;
 }
 
 .image-container2 .img2 {
-  float: right;
-  width: 350px;
-  height: 595px;
+  float: left;
   opacity: 1;
     -webkit-transition: opacity 200ms linear;
     -moz-transition: opacity 200ms linear;
@@ -128,21 +125,16 @@ h2 {
 
   float: left;
   margin-top: 20px;
-  height: 295px;
-  width: 315px;
+
 }
 
 .img4 {
   margin-top: 20px;
-  height: 295px;
   margin-left: 20px;
-  width: 315px;
 }
 
 .img5 {
   margin-top: 20px;
-  width: 1020px;
-  height: 500px;
 }
 
 
