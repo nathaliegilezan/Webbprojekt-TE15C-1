@@ -169,8 +169,14 @@ footer h3{
     display: inline-block;
     border-bottom: 1px solid black;
 }
-i{
-    color:black;
+footer ul {
+    list-style: none;
+    padding: 0;
 }
-.SMedia{
+i{
+    color: black;
+}
+.SMedia li{
+    display:inline;
+    margin-right: 0.5em;
 }
