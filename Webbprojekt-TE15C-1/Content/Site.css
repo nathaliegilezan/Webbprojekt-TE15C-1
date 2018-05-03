@@ -165,3 +165,16 @@ select,
 textarea {
     max-width: 280px;
 }
+footer div{
+    background-color: white;
+    color:black;
+}
+footer h3{
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+i{
+    color:black;
+}
+.SMedia{
+}
