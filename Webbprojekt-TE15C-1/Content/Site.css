@@ -10,6 +10,10 @@ body{
   background-color: #fff;
 }
 
+.products {
+    margin-top: 150px;
+}
+
 .jumbotron {
 
   padding-top: 150px;
