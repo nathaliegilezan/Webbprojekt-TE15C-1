@@ -48,8 +48,8 @@ h2 {
 
 .image-container1 .img1 {
   float: right;
-  width: 350px;
-  height: 595px;
+  width: 280px;
+  height: 650px;
   opacity: 1;
     -webkit-transition: opacity 200ms linear;
     -moz-transition: opacity 200ms linear;
@@ -77,16 +77,17 @@ h2 {
   opacity:1;
 }
 
+
 .image-container2 {
-  float: right;
-  width: 350px;
-  height: 595px;
+  float: left;
+  width: 595px;
+  height: 350px;
 }
 
 .image-container2 .img2 {
-  float: right;
-  width: 350px;
-  height: 595px;
+  float: left;
+  width: 595px;
+  height: 350px;
   opacity: 1;
     -webkit-transition: opacity 200ms linear;
     -moz-transition: opacity 200ms linear;
