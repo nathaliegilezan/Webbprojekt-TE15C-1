@@ -19,9 +19,10 @@ body{
 
 .navbar  {
   background-color: #fff;
+  margin-bottom: 100px;
 }
 
-.navbar:hover {
+a:hover {
   color: black;
 }
 
@@ -111,6 +112,9 @@ h2 {
   opacity:1;
 }
 
+.container {
+  margin-top: 10px;
+}
 
 
 .img3 {
