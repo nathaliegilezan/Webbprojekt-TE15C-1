@@ -1,6 +1,6 @@
 body{
   padding-top: 50px;
-  padding-bottom: 20px;
+  
   background-color: black;
 }
 
@@ -37,7 +37,11 @@ a:hover {
   color: black;
 }
 
-.logo {
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: black;
+}
+
+    .logo {
   margin-left: 145px;
   width: 780px;
 }
@@ -164,9 +168,11 @@ select,
 textarea {
     max-width: 280px;
 }
-footer div{
+footer {
+    width: 100%;
     background-color: white;
-    color:black;
+    color: black;
+    padding: 50px;
 }
 footer h3{
     display: inline-block;
@@ -183,3 +189,25 @@ i{
     display:inline;
     margin-right: 0.5em;
 }
+
+.footer {
+    width: 100%;
+    background-color: white;
+    min-height: 227px;
+}
+
+.col-md-3 Kund {
+    margin-left: 300px;
+}
+
+.container-fluid {
+    padding: 0;
+    height: 100%;
+    background-color: white;
+    margin: 0;
+}
+
+.col-md-3 SMedia {
+    height: 227px;
+}
+
