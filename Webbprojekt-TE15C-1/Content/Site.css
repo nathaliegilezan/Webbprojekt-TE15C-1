@@ -30,7 +30,11 @@ a:hover {
   color: black;
 }
 
-.logo {
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: black;
+}
+
+    .logo {
   margin-left: 145px;
   width: 780px;
 }
