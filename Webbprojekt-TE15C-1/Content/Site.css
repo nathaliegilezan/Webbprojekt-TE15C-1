@@ -16,7 +16,7 @@ body{
 
 .jumbotron {
 
-  padding-top: 150px;
+  padding-top: 260px;
   background-color: #000;
   color: #fff;
 }
@@ -24,7 +24,14 @@ body{
 .navbar  {
   background-color: #fff;
   margin-bottom: 100px;
+  color: black;
 }
+
+
+nav ul li a:hover {
+  color: black;
+}
+
 
 a:hover {
   color: black;
@@ -61,12 +68,13 @@ h2 {
 
 
 .image-container1:hover  .img1 {
-  opacity:0;
+  opacity: 0;
 }
 
 .image-container1 .img11{
-      position: absolute;
+    position: absolute;
    margin-left: -650px;
+   opacity:0;
    -webkit-transition: opacity 200ms linear;
    -moz-transition: opacity 200ms linear;
    -o-transition: opacity 200ms linear;
@@ -75,7 +83,7 @@ h2 {
 }
 
 .image-container1:hover .img11{
-  opacity:1;
+  opacity: 1;
 }
 
 
