@@ -1,6 +1,6 @@
 body{
   padding-top: 50px;
-  
+
   background-color: black;
 }
 
@@ -16,7 +16,8 @@ body{
 
 .jumbotron {
 
-  padding-top: 260px;
+  padding-top: 200px;
+  padding-bottom: 1190px;
   background-color: #000;
   color: #fff;
 }
@@ -121,6 +122,114 @@ position: absolute;
 
 .image-container2:hover .img22{
   opacity:1;
+}
+
+.image-container3 {
+  float: left;
+}
+
+
+.image-container3 .img3 {
+  float: left;
+  opacity: 1;
+    -webkit-transition: opacity 200ms linear;
+    -moz-transition: opacity 200ms linear;
+    -o-transition: opacity 200ms linear;
+    -ms-transition: opacity 200ms linear;
+    transition: opacity 200ms linear;
+}
+
+
+.image-container3:hover  .img3 {
+  opacity: 0;
+}
+
+.image-container3 .img33{
+    position: absolute;
+   margin-left: -315px;
+   margin-top: 20px;
+   opacity:0;
+   -webkit-transition: opacity 200ms linear;
+   -moz-transition: opacity 200ms linear;
+   -o-transition: opacity 200ms linear;
+   -ms-transition: opacity 200ms linear;
+   transition: opacity 200ms linear;
+}
+
+.image-container3:hover .img33{
+  opacity: 1;
+}
+
+.image-container4 {
+  float: left;
+}
+
+
+.image-container4 .img4 {
+  float: left;
+  opacity: 1;
+    -webkit-transition: opacity 200ms linear;
+    -moz-transition: opacity 200ms linear;
+    -o-transition: opacity 200ms linear;
+    -ms-transition: opacity 200ms linear;
+    transition: opacity 200ms linear;
+}
+
+
+.image-container4:hover  .img4 {
+  opacity: 0;
+}
+
+.image-container4 .img44{
+    position: absolute;
+   margin-left: -315px;
+   margin-top: 20px;
+   opacity:0;
+   -webkit-transition: opacity 200ms linear;
+   -moz-transition: opacity 200ms linear;
+   -o-transition: opacity 200ms linear;
+   -ms-transition: opacity 200ms linear;
+   transition: opacity 200ms linear;
+}
+
+.image-container4:hover .img44{
+  opacity: 1;
+}
+
+.image-container5 {
+  float: left;
+}
+
+
+.image-container5 .img5 {
+  float: left;
+  opacity: 1;
+    -webkit-transition: opacity 200ms linear;
+    -moz-transition: opacity 200ms linear;
+    -o-transition: opacity 200ms linear;
+    -ms-transition: opacity 200ms linear;
+    transition: opacity 200ms linear;
+}
+
+
+.image-container5:hover  .img5 {
+  opacity: 0;
+}
+
+.image-container5 .img55{
+    position: absolute;
+   margin-left: -1020px;
+   margin-top: 20px;
+   opacity:0;
+   -webkit-transition: opacity 200ms linear;
+   -moz-transition: opacity 200ms linear;
+   -o-transition: opacity 200ms linear;
+   -ms-transition: opacity 200ms linear;
+   transition: opacity 200ms linear;
+}
+
+.image-container5:hover .img55{
+  opacity: 1;
 }
 
 .container {
