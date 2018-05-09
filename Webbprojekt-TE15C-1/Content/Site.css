@@ -10,6 +10,10 @@ body{
   background-color: #fff;
 }
 
+.products {
+    margin-top: 150px;
+}
+
 .jumbotron {
 
   padding-top: 150px;
@@ -151,4 +155,23 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+footer div{
+    background-color: white;
+    color:black;
+}
+footer h3{
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+i{
+    color: black;
+}
+.SMedia li{
+    display:inline;
+    margin-right: 0.5em;
 }
