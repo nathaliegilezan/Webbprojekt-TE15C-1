@@ -41,43 +41,46 @@
 
 </div>
     <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <div class="container-fluid">
-                <div class="col-md-3 Kund">
-                    <h3>Kundservice</h3>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Köpvillkor & Info</a></li>
-                        <li><a href="#">Kontakta oss</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 Inc">
-                    <h3>Företaget</h3>
-                    <ul>
-                        <li><a href="#">Jobba hos oss</a></li>
-                        <li><a href="#">Formgivare</a></li>
-                        <li><a href="#">Om oss</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 SMedia">
-                    <h3>Sociala Medier</h3>
-                    <ul>
-                        <li><a><i class="fa fa-facebook-square fa-3x"></i></a></li>
-                        <li><a><i class="fa fa-instagram fa-3x"></i></a></li>
-                        <li><a><i class="fa fa-pinterest-square fa-3x"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 News">
-                    <h3>Nyhetsbrev</h3>
-                    <input placeholder="Example@mail.com" />
-                    <button type="button" name="button">Skicka</button>
-                </div>
-            </div>
-        </footer>
-    </div>
 
+        @RenderBody()
+    </div>
+       
+        <div class="footer">
+            <footer>
+                <div class="container-fluid">
+                    <div class="col-md-3 Kund">
+                        <h3>Kundservice</h3>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Köpvillkor & Info</a></li>
+                            <li><a href="#">Kontakta oss</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 Inc">
+                        <h3>Företaget</h3>
+                        <ul>
+                            <li><a href="#">Jobba hos oss</a></li>
+                            <li><a href="#">Formgivare</a></li>
+                            <li><a href="#">Om oss</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 SMedia">
+                        <h3>Sociala Medier</h3>
+                        <ul>
+                            <li><a><i class="fa fa-facebook-square fa-3x"></i></a></li>
+                            <li><a><i class="fa fa-instagram fa-3x"></i></a></li>
+                            <li><a><i class="fa fa-pinterest-square fa-3x"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 News">
+                        <h3>Nyhetsbrev</h3>
+                        <input placeholder="Example@mail.com" />
+                        <button type="button" name="button">Skicka</button>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
