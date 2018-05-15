@@ -344,3 +344,13 @@ a {
     max-width: 58px;
     padding-bottom: 20px;
 }
+}
+
+ul.nav.navbar-nav {
+    width: 200px;
+     
+}
+ul.nav.navbar-nav-right {
+    width: 200px;
+    
+}
