@@ -319,3 +319,15 @@ i{
 .col-md-3 SMedia {
     height: 227px;
 }
+
+.body-content {
+    min-height: 75vh;
+}
+
+form-group {
+    color: white;
+}
+
+a {
+    color: black;
+}
