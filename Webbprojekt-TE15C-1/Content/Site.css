@@ -334,6 +334,9 @@ form-group {
 a {
     color: black;
 }
+.fa-facebook-square {
+    color: #3B5998;
+}
 
 ul.nav.navbar-nav {
     width: 200px;
