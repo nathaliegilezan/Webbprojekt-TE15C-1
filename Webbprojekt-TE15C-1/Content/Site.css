@@ -334,3 +334,12 @@ form-group {
 a {
     color: black;
 }
+
+ul.nav.navbar-nav {
+    width: 200px;
+     
+}
+ul.nav.navbar-nav-right {
+    width: 200px;
+    
+}
