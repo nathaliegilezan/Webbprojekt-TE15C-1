@@ -1,34 +1,35 @@
 ﻿@model IEnumerable<Webbprojekt_TE15C_1.Models.Product>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Start";
 }
 <title>Momento Viveri</title>
 <div class="products">
     @foreach (var item in Model)
     {
-    <a href="@Url.Action("Details", "Products", new { id = item.ID })"
-       class="product">
+        <input type="text" id="" search" name="search" placeholder="Sök..." />
+        <input type="submit" value="sök" />
 
-        <img src="@Url.Content("~/Content/Images/" + item.Imagefile)" alt="Marble table"
-             class="img-responsive" />
+        <a href="@Url.Action("Details", "Products", new { id = item.ID })"
+           class="product">
 
-        
-        <h2>@item.Name</h2>
-        <p>
-            <span class="price">@item.Price kr</span>
-            <span class="=" btn btn-success buy">
-                <span class="glyphicon glyphicon-shopping-cart"></span>
-                Köp
-            </span>
-        </p>
-        <p class="desc">@item.Description</p>
-    </a>
+            <img src="@Url.Content("~/Content/Images/" + item.Imagefile)" alt="Marble table"
+                 class="img-responsive" />
+
+            <h2>@item.Name</h2>
+            <p>
+                <span class="price">@item.Price kr</span>
+                <span class="=" btn btn-success buy">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                    Köp
+                </span>
+            </p>
+            <p class="desc">@item.Description</p>
+        </a>
     }
 
-    @using(Html.BeginForm("Index", "Products", FormMethod.Get))
-            {
-    <input type="text" id=""search" name="search" placeholder="Sök..." />
-    <input type="submit" value="sök" />
+    @using (Html.BeginForm("Index", "Products", FormMethod.Get))
+    {
+
     }
 </div>
