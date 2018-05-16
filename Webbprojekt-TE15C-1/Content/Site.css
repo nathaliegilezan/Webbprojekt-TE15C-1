@@ -1,7 +1,11 @@
 body{
   padding-top: 50px;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Barlow Semi Condensed', sans-serif;
   background-color: black;
+}
+
+.label {
+  color: white;
 }
 
 
@@ -258,7 +262,7 @@ position: absolute;
 
 
 .btn  {
-  background-color: black;
+  background-color: white;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -333,15 +337,4 @@ form-group {
 
 a {
     color: black;
-}
-.fa-facebook-square {
-    color: #3B5998;
-}
-.fa-pinterest-square {
-    color: #CC2025;
-}
-#Instagram{
-    max-width: 58px;
-    padding-bottom: 20px;
-}
 }
