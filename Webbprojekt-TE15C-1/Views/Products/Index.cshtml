@@ -4,11 +4,13 @@
     ViewBag.Title = "Start";
 }
 <title>Momento Viveri</title>
+
+
 <div class="products">
+    <input type="text" id="" search" name="search" placeholder="Skriv produktnamn..." />
+    <input type="submit" value="Sök" />
     @foreach (var item in Model)
     {
-        <input type="text" id="" search" name="search" placeholder="Skriv produktnamn..." />
-        <input type="submit" value="Sök" />
 
         <a href="@Url.Action("Details", "Products", new { id = item.ID })"
            class="product">

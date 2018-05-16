@@ -258,7 +258,7 @@ position: absolute;
 
 
 .btn  {
-  background-color: black;
+  background-color: white;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -345,4 +345,14 @@ a {
     padding-bottom: 20px;
 }
 
+.btn btn-default {
+    color: white;
+}
 
+.body-content {
+    color: white;
+}
+
+.register {
+    padding-top: 90px;
+}
