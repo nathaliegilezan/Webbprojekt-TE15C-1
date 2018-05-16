@@ -349,4 +349,14 @@ a {
     padding-bottom: 20px;
 }
 
+.btn btn-default {
+    color: white;
+}
 
+.body-content {
+    color: white;
+}
+
+.register {
+    padding-top: 90px;
+}
