@@ -369,10 +369,13 @@ a {
     
 }
 
-span {
+.desc, span {
     color: white;
 }
 
-.products {
+.produkt {
     border: 2px solid white;
+    width: 340px;
+    padding: 20px;
+    margin: 20px;
 }

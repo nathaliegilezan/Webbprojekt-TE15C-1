@@ -12,6 +12,7 @@
     @foreach (var item in Model)
     {
 
+            <div class="produkt">
         <a href="@Url.Action("Details", "Products", new { id = item.ID })"
            class="product">
 
@@ -28,6 +29,7 @@
             </p>
             <p class="desc">@item.Description</p>
         </a>
+                </div>
     }
 
     @using (Html.BeginForm("Index", "Products", FormMethod.Get))
