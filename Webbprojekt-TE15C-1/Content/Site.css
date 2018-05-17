@@ -386,4 +386,20 @@ a {
     width: 340px;
     padding: 20px;
     margin: 20px;
+    margin-bottom: 100px;
 }
+
+.produkt:nth-child(odd) {
+    float: right;
+    margin-right: 150px;
+}
+
+.produkt:nth-child(even) {
+    float: left;
+    margin-left: 150px;
+}
+
+#search {
+    width: 700px;
+}
+
