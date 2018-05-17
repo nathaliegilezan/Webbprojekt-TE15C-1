@@ -215,8 +215,8 @@ position: absolute;
   margin-top: 100px;
 }
 
-.col-md-2 control-label {
-  font-style: normal;
+.control-label {
+  font-weight: normal;
 }
 
 .image-container5 .img5 {
@@ -402,4 +402,3 @@ a {
 #search {
     width: 700px;
 }
-
