@@ -8,8 +8,13 @@ h1, h2, h4 {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+h2, h4 {
+    font-size: 1.5em;
+}
+    
+    
 .label {
-  color: white;
+   color: white;
 }
 
 
@@ -44,6 +49,10 @@ nav ul li a:hover {
   color: black;
 }
 
+ul.nav.navbar-nav {
+    margin-left: 10px;
+
+}
 
 a:hover {
   color: black;
@@ -54,8 +63,9 @@ a:hover {
 }
 
 .logo {
-  margin-left: 20%;
-  width: 780px;
+    margin: 0 auto;
+    width: 800px;
+    display: block;
 }
 
 .col-md-4 {
@@ -411,6 +421,7 @@ a {
 }
 
 #search {
+    margin-left: 35%;
     width: 100%;
     border-radius: 5px;
     padding: 5px;
@@ -425,4 +436,16 @@ a {
 
 #searchbutton:hover {
     background-color: #eee;
+}
+
+.form-horizontal-create {
+    margin-top: 100px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.form-horizontal {
+    width: 1140px;
 }
