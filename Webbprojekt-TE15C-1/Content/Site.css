@@ -4,11 +4,7 @@ font-family: 'Barlow Semi Condensed', sans-serif;
   background-color: black;
 }
 
-h1 {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-}
-
-h4 {
+h1, h2, h4 {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -219,6 +215,10 @@ position: absolute;
   margin-top: 100px;
 }
 
+.col-md-2 control-label {
+  font-style: normal;
+}
+
 .image-container5 .img5 {
   float: left;
   opacity: 1;
@@ -374,7 +374,7 @@ a {
 
 .img-responsive {
     width: 300px;
-    
+
 }
 
 .desc, span {
