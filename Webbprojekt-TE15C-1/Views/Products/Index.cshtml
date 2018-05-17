@@ -5,10 +5,16 @@
 }
 <title>Momento Viveri</title>
 
+<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
 
 <div class="products">
+    <h1>Produkter</h1>
+    <hr />
+    <br />
     <input type="text" id="" search" name="search" placeholder="Skriv produktnamn..." />
     <input type="submit" value="Sök" />
+    <br />
+    <br />
     @foreach (var item in Model)
     {
 
@@ -21,7 +27,7 @@
             <h2>@item.Name</h2>
             <p>
                 <span class="price">@item.Price kr</span>
-                <span class="=" btn btn-success buy">
+                <span class="=" btn btn-success buy"> <br />
                     <span class="glyphicon glyphicon-shopping-cart"></span>
                     Köp
                 </span>
