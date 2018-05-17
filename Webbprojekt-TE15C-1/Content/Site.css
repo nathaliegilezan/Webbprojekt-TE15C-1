@@ -207,6 +207,9 @@ position: absolute;
   float: left;
 }
 
+.row {
+  margin-top: 100px;
+}
 
 .image-container5 .img5 {
   float: left;
