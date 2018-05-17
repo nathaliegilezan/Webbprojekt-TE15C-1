@@ -369,6 +369,17 @@ a {
     max-width: 58px;
     padding-bottom: 20px;
 }
+.fa-facebook-square:hover {
+    color:hsla(221, 44%, 41%, 0.2);
+}
+
+.fa-pinterest-square:hover {
+    color: hsla(358, 73%, 46%, 0.2);
+}
+
+#Instagram:hover {
+    opacity: 0.2;
+}
 
 .btn btn-default {
     color: white;
