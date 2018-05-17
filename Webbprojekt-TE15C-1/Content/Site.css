@@ -416,6 +416,10 @@ a {
     padding: 5px;
 }
 
+
+.search {
+    width: 1140px;
+}
 #searchbutton {
     padding: 5px;
     border-radius: 5px;
