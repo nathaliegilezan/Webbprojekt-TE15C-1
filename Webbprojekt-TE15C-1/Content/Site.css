@@ -400,5 +400,18 @@ a {
 }
 
 #search {
-    width: 700px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#searchbutton {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    width: 50px;
+}
+
+#searchbutton:hover {
+    background-color: #eee;
 }
