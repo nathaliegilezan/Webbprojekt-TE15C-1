@@ -363,3 +363,16 @@ a {
 .register {
     padding-top: 90px;
 }
+
+.img-responsive {
+    width: 300px;
+    
+}
+
+span {
+    color: white;
+}
+
+.products {
+    border: 2px solid white;
+}
