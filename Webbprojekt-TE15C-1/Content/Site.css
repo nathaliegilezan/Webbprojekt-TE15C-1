@@ -4,11 +4,7 @@ font-family: 'Barlow Semi Condensed', sans-serif;
   background-color: black;
 }
 
-h1 {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-}
-
-h4 {
+h1, h2, h4 {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
