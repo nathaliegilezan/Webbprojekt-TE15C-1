@@ -457,3 +457,7 @@ a {
 .dl-horizontal {
     margin-top: 50px;
 }
+
+img-responsive {
+    width: 200px;
+}
