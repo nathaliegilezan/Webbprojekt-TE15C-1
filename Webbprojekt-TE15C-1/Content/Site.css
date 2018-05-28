@@ -427,6 +427,10 @@ a {
     padding: 5px;
 }
 
+
+.search {
+    width: 1140px;
+}
 #searchbutton {
     padding: 5px;
     border-radius: 5px;
@@ -448,4 +452,12 @@ a {
 
 .form-horizontal {
     width: 1140px;
+}
+
+.dl-horizontal {
+    margin-top: 50px;
+}
+
+img-responsive {
+    width: 200px;
 }
